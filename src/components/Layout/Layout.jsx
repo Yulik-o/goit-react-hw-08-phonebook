@@ -16,7 +16,7 @@ export default function Layout() {
       <header>
         <nav>
           <NavLink to="/">
-            <b>Home</b>
+            <b>Home </b>
           </NavLink>
           {isLoggedIn ? (
             <>
