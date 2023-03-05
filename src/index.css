@@ -7,6 +7,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  padding: 30px;
+  color: rgb(152, 167, 152);
+}
+a {
+  text-decoration: none;
+  color: rgb(152, 167, 152);
+}
+button {
+  color: rgb(152, 167, 152);
 }
 
 code {

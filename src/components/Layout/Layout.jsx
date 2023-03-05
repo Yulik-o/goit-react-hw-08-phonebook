@@ -15,10 +15,16 @@ export default function Layout() {
     <>
       <header>
         <nav>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">
+            <b>Home</b>
+          </NavLink>
           {isLoggedIn ? (
             <>
-              <NavLink to="/contacts">Contacts</NavLink>
+              <NavLink to="/contacts">
+                <span>
+                  <b>Contacts</b>
+                </span>
+              </NavLink>
               <p>{userEmail}</p>
               <button onClick={handleLogOut}>Logout</button>
             </>

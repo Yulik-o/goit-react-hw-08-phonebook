@@ -31,7 +31,7 @@ export default function RegisterPage() {
   };
   return (
     <>
-      <h3>Let's register in less than one minute! vi</h3>
+      <h3>Let's register in less than one minute! </h3>
       <form autoComplete="off" onSubmit={handleSubmit}>
         <label label="Name">
           Name
