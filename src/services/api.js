@@ -1,4 +1,4 @@
-import { $privateHost } from 'redux/auth/loginApi';
+import { $privateHost } from 'redux/auth/API';
 
 export const fetchContacts = async () => {
   const { data } = await $privateHost.get('/contacts');

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { userLogin } from 'redux/auth/authOperations';
+import { userLogin } from 'redux/auth/authTransactions';
 
 export default function LoginPage() {
   const dispatch = useDispatch();
