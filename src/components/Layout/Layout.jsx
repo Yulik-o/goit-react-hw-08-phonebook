@@ -30,8 +30,12 @@ export default function Layout() {
             </>
           ) : (
             <>
-              <NavLink to="/login ">Login </NavLink>
-              <NavLink to="/register">Register </NavLink>
+              <NavLink to="/login ">
+                <b>Login </b>
+              </NavLink>
+              <NavLink to="/register">
+                <b>Register </b>
+              </NavLink>
             </>
           )}
         </nav>
